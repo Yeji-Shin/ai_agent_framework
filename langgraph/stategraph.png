@@ -1,0 +1,7 @@
+digraph {
+	__start__ [label=START]
+	__end__ [label=END]
+	increment [label=increment]
+	__start__ -> increment
+	increment -> __end__
+}
